@@ -14,26 +14,13 @@
 # output: "0\n"
 # MODE: TEST
 # METADATA::FINISH
-#
-# select MODE from NONE, DEBUG, TEST
-# problem: https://atcoder.jp/contests/abc169/tasks/abc169_b
+# 
+# you can add your original test case 
+# you can select MODE from NONE, DEBUG, RUN, TEST
+# problem_url: https://atcoder.jp/contests/abc169/tasks/abc169_b
+# submission_url: https://atcoder.jp/contests/abc169/submissions/me
 # -------------------------------------------------------------
 
-# possible gets
-n = gets.to_i
-arr = gets.split(' ').map(&:to_i)
-
-res = 1
-if arr.include? 0
-  puts 0
-  exit
-end
-
-arr.each do |i|
-  res *= i
-  if res > 10 ** 18
-    res = -1
-    break
-  end
-end
-puts res
+# snippets
+# n = gets.to_i
+# arr = gets.split(' ').map(&:to_i)

@@ -12,10 +12,12 @@
 # MODE: TEST
 # METADATA::FINISH
 # 
-# 
-# select MODE from NONE, DEBUG, RUN, TEST
-# problem: https://atcoder.jp/contests/abc169/tasks/abc169_a
+# you can add your original test case 
+# you can select MODE from NONE, DEBUG, RUN, TEST
+# problem_url: https://atcoder.jp/contests/abc169/tasks/abc169_a
+# submission_url: https://atcoder.jp/contests/abc169/submissions/me
 # -------------------------------------------------------------
 
-arr = gets.split(' ').map(&:to_i)
-puts(arr[0] * arr[1])
+# snippets
+n = gets.to_i
+# arr = gets.split(' ').map(&:to_i)

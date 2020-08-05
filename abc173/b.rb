@@ -19,5 +19,18 @@
 # -------------------------------------------------------------
 
 # snippets
-# n = gets.to_i
+n = gets.to_i
 # arr = gets.split(' ').map(&:to_i)
+arr = []
+n.times do |i|
+  arr[i] = gets.chomp
+end
+
+print "AC x "
+puts arr.count{|r| r == 'AC'}
+print "WA x "
+puts arr.count{|r| r == 'WA'}
+print "TLE x "
+puts arr.count{|r| r == 'TLE'}
+print "RE x "
+puts arr.count{|r| r == 'RE'}

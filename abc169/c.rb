@@ -15,14 +15,12 @@
 # MODE: TEST
 # METADATA::FINISH
 # 
-# select MODE from NONE, DEBUG, TEST
-# problem: https://atcoder.jp/contests/abc169/tasks/abc169_c
+# you can add your original test case 
+# you can select MODE from NONE, DEBUG, RUN, TEST
+# problem_url: https://atcoder.jp/contests/abc169/tasks/abc169_c
+# submission_url: https://atcoder.jp/contests/abc169/submissions/me
 # -------------------------------------------------------------
 
-# possible gets
+# snippets
 # n = gets.to_i
-require 'bigdecimal'
-require 'bigdecimal/util'  #<= to_d メソッドが使えるようになる
-
-arr = gets.split(' ').map(&:to_d)
-puts (arr[0] * arr[1]).floor
+# arr = gets.split(' ').map(&:to_i)

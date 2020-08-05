@@ -11,10 +11,13 @@
 # output: "9991\n"
 # MODE: TEST
 # METADATA::FINISH
-# select MODE from NONE, DEBUG, TEST
-# problem: https://atcoder.jp/contests/abc169/tasks/abc169_e
+# 
+# you can add your original test case 
+# you can select MODE from NONE, DEBUG, RUN, TEST
+# problem_url: https://atcoder.jp/contests/abc169/tasks/abc169_e
+# submission_url: https://atcoder.jp/contests/abc169/submissions/me
 # -------------------------------------------------------------
 
-# possible gets
+# snippets
 # n = gets.to_i
 # arr = gets.split(' ').map(&:to_i)
